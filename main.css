@@ -33,12 +33,15 @@ h6{
 nav{
     display: flex;
     flex-direction: row;
+    position: fixed;
+    width: 100%;
     justify-content: space-between;
     padding: 1vw 4vw;
     align-items: center;
-    background-color: whitesmoke;
+    background-color: white;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.15);
-    height: 13vh;
+    height: 9vh;
+    
 }
 
 nav img{
@@ -46,6 +49,7 @@ nav img{
     margin-left: 40px;
     cursor: pointer;
     border-radius: 100px 100px 100px 100px;
+    padding-top: 28px;
 
 }
 
@@ -70,4 +74,57 @@ nav .navigation ul li a{
 
 nav .navigation ul li a:hover{
     color: goldenrod;
+}
+
+/* Home */
+
+#home{
+    text-align: center;
+}
+
+#home .btn a{
+    text-decoration: none;
+}
+
+#home .d-blue{
+    color: yellowgreen;
+    background-color: brown;
+    max-height: 40vh;
+    width: 30%;
+    border-radius: 30px 30px 30px 30px;
+    padding: 13px 13px;
+    
+}
+
+
+#home .d-blue:hover{
+    color: rgb(167, 28, 30);
+    background-color: rgb(119, 57, 102);
+    
+}
+
+#home{
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3),rgba(5, 4, 46, 0.7)), url(./img/bg-pic.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#home h2{
+    color: blanchedalmond;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+#home #para{
+    color: whitesmoke;
+    width: 60%;
+    line-height: 26px;
+    font-size: 0.9rem;
 }
