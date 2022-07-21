@@ -167,9 +167,20 @@ nav .navigation ul li a:hover{
     text-align: center;
 }
 
+#features .fea-base{
+    display: flex;
+    grid-template-columns: repeat(auto, min-max(320, 1fr));
+    grid-gap: 0.5rem;
+    margin-top: 50px;
+    height: 30vh;
+}
+
 #features .fea-box{
-    background-color: rgba(240, 231, 231, 0.969);
+    background-color: rgba(239, 236, 236, 0.969);
     text-align: start;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
 }
 
 #features .fea-box i{
@@ -187,5 +198,12 @@ nav .navigation ul li a:hover{
 #features .fea-box p{
     font-size: 0.9rem;
     font-weight: 400;
-    color: rgb(46, 46, 59);
+    color: rgb(70, 70, 89);
 }
+
+#courses{
+    text-align: center;
+    padding: 5rem;
+}
+
+
