@@ -23,6 +23,16 @@ span{
     color: chocolate;
 }
 
+#bon{
+    color: blanchedalmond;
+        font-size: 2.2rem;
+        letter-spacing: 1px;
+        background-color: green;
+        border-radius: 35px 25px 46px 55px;
+        padding-left: 8px;
+    }
+
+
 h6{
     font-size: 1.1rem;
     color: rgb(24, 24, 49);
@@ -68,7 +78,7 @@ nav .navigation ul li a{
     text-decoration: none;
     color: rgb(10, 10, 57);
     font-size: 15px;
-    font-weight: 650;
+    font-weight: 600;
     transition-delay: 0.3s ease;
 }
 
@@ -80,10 +90,13 @@ nav .navigation ul li a:hover{
 
 #home{
     text-align: center;
+    padding-top: 70px;
 }
 
 #home .btn a{
     text-decoration: none;
+    padding: 15px 25px;
+    font-size: 0.9rem;
 }
 
 #home .d-blue{
@@ -91,16 +104,30 @@ nav .navigation ul li a:hover{
     background-color: brown;
     max-height: 40vh;
     width: 30%;
-    border-radius: 30px 30px 30px 30px;
+    border-radius: 30px;
     padding: 13px 13px;
     
+}
+
+#home .g-gold{
+    color: yellowgreen;
+    max-height: 40vh;
+    width: 30%;
+    border-radius: 30px;
+    padding: 13px 13px;
 }
 
 
 #home .d-blue:hover{
     color: rgb(167, 28, 30);
     background-color: rgb(119, 57, 102);
-    
+    transition: 0.3s ease-in-out;
+}
+
+#home .g-gold:hover {
+    color: rgb(167, 28, 30);
+    background-color: rgb(67, 14, 53);
+    transition: 0.3s ease-in-out;
 }
 
 #home{
@@ -120,6 +147,7 @@ nav .navigation ul li a:hover{
     color: blanchedalmond;
     font-size: 2.2rem;
     letter-spacing: 1px;
+    padding: 5px;
 }
 
 #home #para{
@@ -127,4 +155,9 @@ nav .navigation ul li a:hover{
     width: 60%;
     line-height: 26px;
     font-size: 0.9rem;
+    padding: 5px;
+}
+
+#home .btn{
+    padding: 5px;
 }
