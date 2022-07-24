@@ -207,11 +207,13 @@ nav .navigation ul li a:hover{
 }
 
 #courses .course-box{
+    width: 30%;
+    padding: 20px 20px;
+    margin: 100px auto;
     display: flex;
-    grid-template-columns: repeat(auto, min-max(320, 1fr));
-    grid-gap: 0.5rem;
-    margin-top: 50px;
-    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    
     
 }
 
