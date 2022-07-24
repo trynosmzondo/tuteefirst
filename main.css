@@ -168,12 +168,15 @@ nav .navigation ul li a:hover{
 }
 
 #features .fea-base{
+    width: 100px auto;
     display: flex;
     grid-template-columns: repeat(auto, min-max(320, 1fr));
     grid-gap: 0.5rem;
     margin-top: 50px;
     height: 100%;
+    
 }
+
 
 #features .fea-box{
     background-color: rgba(255, 243, 243, 0.969);
@@ -206,32 +209,51 @@ nav .navigation ul li a:hover{
     padding: 8vw 8vw 0 8vw;
 }
 
+
 #courses .course-box{
-    width: 30%;
-    padding: 20px 20px;
-    margin: 100px auto;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
+    padding: 5px 5px 5px 5px;
+    margin-top: 50px;
+    /*width: 70px;
     
-    
+    margin: 100px;
+    justify-content: center;
+    grid-gap: 0.4rem;
+    margin-top: 50px;
+    height: 100%;*/
 }
+
 
 #courses .our-courses{
     text-align: start;
     background-color: rgb(255, 255, 255);
     height: 100%;
+    box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 40px 40px 20px 20px;
+    margin: 7px;
+    padding: 25px 25px;
+    transition: 1s;
+
 }
 
-#courses .our-courses .nested img{
-    border-radius: 100px;
+#courses .our-courses:hover{
+    color: whitesmoke;
+    background-color: rgb(125, 125, 126);
+    transform:scale(1.1);
+    z-index: 999;
+    
 }
 
 #courses .our-courses img{
-    width: 100%;
-    height: 100%;
+    display: block;
+    width: 35vh;
+    height: 35vh;
     background-position: center;
     background-size: cover;
+    border-radius: 40px 40px;
 }
 
 #courses .stars i{
@@ -240,7 +262,27 @@ nav .navigation ul li a:hover{
     font-weight: 800;
 }
 
-/* Nested pic*/
+#courses .our-courses .details{
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+#courses .our-courses .price-tag{
+    padding-left: 1px;
+    padding-left: 1px;
+}
+
+/* Search Bar*/
+
+.search-bar{
+    width: 100%;
+    min-height: 10vh;
+    padding: 5%;
+    text-align: end;
+    background-position: center;
+    background-size: cover;
+
+}
 
 
 
