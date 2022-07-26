@@ -50,7 +50,7 @@ nav{
     align-items: center;
     background-color: white;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.15);
-    height: 9vh;
+    height: 12vh;
     
 }
 
@@ -231,19 +231,23 @@ nav .navigation ul li a:hover{
     text-align: start;
     background-color: rgb(255, 255, 255);
     height: 100%;
-    box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.09);
     border-radius: 40px 40px 20px 20px;
     margin: 7px;
-    padding: 25px 25px;
+    padding: 15px 15px;
     transition: 1s;
+    position: relative;
 
 }
 
 #courses .our-courses:hover{
     color: whitesmoke;
     background-color: rgb(125, 125, 126);
-    transform:scale(1.1);
-    z-index: 999;
+    transform:scale(0.9);
+    z-index: 2;
+    cursor: pointer;
+    
+    
     
 }
 
@@ -268,8 +272,19 @@ nav .navigation ul li a:hover{
 }
 
 #courses .our-courses .price-tag{
-    padding-left: 1px;
-    padding-left: 1px;
+    background-color: rgb(221, 160, 4);
+    color: #fff;
+    font-size: small;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 100%;
+    position: absolute;
+    right: 40px;
+    bottom: 60px;
+    
+    
 }
 
 /* Search Bar*/
@@ -277,11 +292,34 @@ nav .navigation ul li a:hover{
 .search-bar{
     width: 100%;
     min-height: 10vh;
-    padding: 5%;
+    padding: 5% 5%;
     text-align: end;
     background-position: center;
     background-size: cover;
+    display: flex;
+}
 
+.search-bar1{
+    width: 100%;
+    max-width: 700px;
+    height: 4vh;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    border-radius: 60px;
+}
+
+.search-bar1 input{
+    color: black;
+    flex: 1;
+    border-color: rgb(10, 10, 57);
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: beige;
+    border-radius: 60px;
+    height: 0.3vh;
 }
 
 
