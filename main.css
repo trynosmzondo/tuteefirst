@@ -33,6 +33,7 @@ span{
     }
 
 
+
 h6{
     font-size: 1.1rem;
     color: rgb(24, 24, 49);
@@ -378,8 +379,8 @@ nav .navigation ul li a:hover{
 
 #registration .form ::placeholder{
     color: rgb(11, 11, 31);
-    font-weight: 200;
-    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
 }
 
 #registration .form .btn .d-blue{
@@ -404,6 +405,62 @@ nav .navigation ul li a:hover{
     background-color: #fff;
     transition: 0.3s ease;
 }
+
+/*experts*/
+
+#experts{
+    padding: 8vw 8vw 0 8vw;
+    text-align: center;
+}
+
+#experts h1{
+    color: black;
+}
+
+#experts .expert-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    /*align-content: flex-start;*/
+    margin-top: 50px;
+}
+
+#experts .expert-box img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+#experts .expert-box .profile{
+    background: #fafaf1;
+    padding: 30px 10px;
+}
+
+.links{
+    margin-top: 10px;
+}
+
+.links i{
+    padding:10px 13px ;
+    color: blue;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: 0.3s;
+    
+}
+
+.links i:hover{
+    background: ;
+    backdrop-filter: blur(4px);
+    border: 1px solid gold;
+    transform: scale(1.1);
+    
+}
+
+
+
+
+
 
 
 
