@@ -427,13 +427,14 @@ nav .navigation ul li a:hover{
 
 #experts .expert-box img{
     border-radius: 100%;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 #experts .expert-box .profile{
     background: #fafaf1;
     padding: 30px 10px;
+    border-radius: 10px;
 }
 
 .links{
@@ -446,13 +447,15 @@ nav .navigation ul li a:hover{
     cursor: pointer;
     border: 1px solid black;
     transition: 0.3s;
+    width: fit-content;
+    height: fit-content;
     
 }
 
 .links i:hover{
     background: ;
     backdrop-filter: blur(4px);
-    border: 1px solid gold;
+    border: 1px solid blue;
     transform: scale(1.1);
     
 }
