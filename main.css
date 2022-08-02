@@ -425,6 +425,10 @@ nav .navigation ul li a:hover{
     margin-top: 50px;
 }
 
+#experts .expert-box p{
+    font-size: 14px;
+}
+
 #experts .expert-box img{
     border-radius: 100%;
     width: 150px;
@@ -443,17 +447,18 @@ nav .navigation ul li a:hover{
 
 .links i{
     padding:10px 13px ;
-    color: blue;
+    color: black;
     cursor: pointer;
     border: 1px solid black;
-    transition: 0.3s;
+    transition: 0.3s ease;
     width: fit-content;
     height: fit-content;
-    
+    box-shadow: 0 5px 2px 0 rgba(31, 38, 135, 0.28);
 }
 
 .links i:hover{
-    background: ;
+    color: #fff;
+    background: blue;
     backdrop-filter: blur(4px);
     border: 1px solid blue;
     transform: scale(1.1);
