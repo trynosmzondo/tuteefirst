@@ -465,6 +465,96 @@ nav .navigation ul li a:hover{
     
 }
 
+/*Footer*/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 8vw;
+    background-color: #101c32;
+}
+
+footer .footer-col{
+    padding-bottom: 40px;
+}
+
+footer h3{
+    color: rgb(234, 233, 241);
+    font-weight: 650;
+    padding-bottom: 20px;
+}
+
+footer li{
+    list-style: none;
+    color: #7b838a;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+footer li:hover{
+    color: rgb(167, 28, 30);
+}
+
+footer p{
+    color: #7b838a;
+}
+
+footer .subscribe{
+    margin-top: 20px;
+}
+
+footer input{
+    padding: 15px 12px;
+    background-color: #334F6C;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+footer .subscribe  .yellow{
+    color: #fff;
+    text-decoration: none;
+    text-decoration: none;
+    padding: 12px 15px;
+    font-size: 0.9rem;
+    background-color: yellow;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+footer .subscribe .yellow:hover{
+    color: rgb(21, 21, 100);
+    background: #fff;
+}
+
+.copyright .footer-links i{
+    padding: 10px 13px;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: 0.3s ease;
+    width: fit-content;
+    height: fit-content;
+    
+}
+
+.copyright .footer-links i:hover {
+    color: #fff;
+    background: blue;
+    backdrop-filter: blur(4px);
+    border: 1px solid blue;
+    transform: scale(1.1);
+
+}
+
+
+
+
+
 
 
 
