@@ -50,8 +50,9 @@ nav{
     padding: 1vw 4vw;
     align-items: center;
     background-color: white;
-    box-shadow: 0 7px 7px 0 rgba(31, 38, 135, 0.28);
+    box-shadow: 0 5px 7px 0 rgba(31, 38, 135, 0.18);
     height: 12vh;
+    z-index: 999;
     
 }
 
@@ -68,6 +69,16 @@ nav .navigation ul{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+nav .navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-btn{
+    width: 30px;
+    height: 30px;
 }
 
 nav .navigation ul li{
@@ -207,7 +218,7 @@ nav .navigation ul li a:hover{
 
 #courses{
     text-align: center;
-    padding: 8vw 8vw 0 8vw;
+    padding: 8vw 8vw 8vw 8vw;
 }
 
 
@@ -215,10 +226,12 @@ nav .navigation ul li a:hover{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
     padding: 5px 5px 5px 5px;
     margin-top: 50px;
 }
+
 
 
 #courses .our-courses{
@@ -408,7 +421,7 @@ nav .navigation ul li a:hover{
 /*experts*/
 
 #experts{
-    padding: 8vw 8vw 0 8vw;
+    padding: 8vw 8vw 8vw 8vw;
     text-align: center;
 }
 
@@ -457,7 +470,7 @@ nav .navigation ul li a:hover{
 
 .links i:hover{
     color: #fff;
-    background: blue;
+    background: rgb(228, 228, 10);
     backdrop-filter: blur(4px);
     border: 1px solid blue;
     transform: scale(1.1);
@@ -551,7 +564,7 @@ footer .subscribe .yellow:hover{
 
 footer .copyright{
     margin-top: 20px;
-    
+    justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -559,6 +572,15 @@ footer .copyright{
 
 footer .copyright p{
     color: white;
+}
+
+@media (max-width: 769px) {
+    nav {
+            padding: 15px 20px;
+        }
+        nav img {
+            width: 130px
+        }
 }
 
 
